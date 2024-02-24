@@ -5,7 +5,6 @@ import base64
 import json
 
 APP_KEY = 'bfc7gt2wmbd081b'
-APP_SECRET = 'lobt5soielr6u1y'
 ACCESS_CODE_GENERATED = '_3-tzlmvZh4AAAAAAAABvqIDtvyQ2Jv5L0S0Bt8tJb4'
 BASIC_AUTH = base64.b64encode(f'{APP_KEY}:{APP_SECRET}'.encode())
 headers = {
